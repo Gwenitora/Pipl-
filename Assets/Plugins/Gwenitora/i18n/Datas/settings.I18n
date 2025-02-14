@@ -1,0 +1,55 @@
+﻿{
+  "lang": [
+    {
+      "name": "English",
+      "code": "en",
+      "region": "US"
+    },
+    {
+      "name": "Français",
+      "code": "fr",
+      "region": "FR"
+    },
+    {
+      "name": "日本語",
+      "code": "ja",
+      "region": "JP"
+    }
+  ],
+  "variable": [
+    {
+      "key": "username",
+      "type": "string",
+      "description": "The name of the user"
+    }
+  ],
+  "translation": [
+    {
+      "key": "main.title",
+      "type": "string",
+      "variable": {
+        "conserved": [],
+        "instantUse": []
+      }
+    },
+    {
+      "key": "menu.welcomeBack",
+      "type": "string",
+      "variable": {
+        "conserved": [
+          {
+            "key": "color",
+            "type": "string",
+            "default": "#FFFFFF"
+          }
+        ],
+        "instantUse": [
+          {
+            "key": "connectionDate",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}

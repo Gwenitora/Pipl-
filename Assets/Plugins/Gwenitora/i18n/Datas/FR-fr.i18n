@@ -1,0 +1,6 @@
+﻿{
+    "${username}": "Jean Dupont",
+    "main.title": "Pipl",
+    "menu.welcomeBack": "Bienvenue, <color={{color}}>${username}</color>!  {[connectionDate]}",
+    "menu.welcomeBack.{[connectionDate]}": "01/01/2000"
+}
